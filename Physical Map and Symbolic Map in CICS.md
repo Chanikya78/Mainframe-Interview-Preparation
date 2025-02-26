@@ -1,5 +1,5 @@
 
-** Physical Map and Symbolic Map in CICS **
+**Physical Map and Symbolic Map in CICS**
 
 In CICS (Customer Information Control System), physical maps and symbolic maps are both used in BMS (Basic Mapping Support) to define screen layouts, but they serve different purposes:
 
@@ -10,7 +10,7 @@ In CICS (Customer Information Control System), physical maps and symbolic maps a
 -> CICS uses it to send formatted data to the terminal.
 -> It contains hardcoded screen attributes like color, intensity, and field positions.
 
-** Symbolic Map**
+**Symbolic Map**
 
 -> It is a copybook (COBOL and PL/I ) used in the application program.
 -> It provides data structures (field names and lengths) that correspond to the fields on the physical map.
