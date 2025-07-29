@@ -1,4 +1,4 @@
-What are Subscript and Index, and why do we use Subscript and Index ?
+**What are Subscript and Index, and why do we use Subscript and Index ?**
 
 In COBOL, both subscript and index are used to access individual elements within tables (arrays).
 
