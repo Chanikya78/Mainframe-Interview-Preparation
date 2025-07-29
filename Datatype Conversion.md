@@ -15,7 +15,7 @@ X(10) (alphanumeric): '1234567890'
 To convert a data field from X(10) to 9(10), you are typically converting an alphanumeric string (which may contain numbers, letters, or special characters) into a purely numeric value. 
 This conversion process will only work correctly if the alphanumeric data contains valid numeric characters (0-9), otherwise, it may result in an error or unexpected behavior.
 
-*Steps to Convert in COBOL**
+**Steps to Convert in COBOL**
 
 ->Define the Data Structures
 
@@ -31,7 +31,7 @@ MOVE FUNCTION NUMVAL(ALPHANUMERIC-FIELD) TO NUMERIC-FIELD
 DISPLAY 'Alphanumeric: ' ALPHANUMERIC-FIELD DISPLAY 'Numeric: ' NUMERIC-FIELD
 STOP RUN.
 
-* Function NUMVAL:
+**Function NUMVAL:**
 
 -> The NUMVAL function in COBOL is used to convert an alphanumeric string that contains only numeric characters into a numeric data type. 
 If the string contains non-numeric characters (like letters or symbols), it will cause an error or produce unexpected results, so the data should be validated before attempting the conversion.
