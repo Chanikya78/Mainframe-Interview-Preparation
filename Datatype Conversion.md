@@ -21,11 +21,11 @@ This conversion process will only work correctly if the alphanumeric data contai
 
 DATA DIVISION. WORKING-STORAGE SECTION.
 
-01 ALPHANUMERIC-FIELD PIC X(10). This is the X(10) field (alphanumeric)
-01 NUMERIC-FIELD PIC 9(10). This is the 9(10) field (numeric)Converting the Alphanumeric Value to Numeric:
+01 ALPHANUMERIC-FIELD PIC X(10).                            This is the X(10) field (alphanumeric)
+01 NUMERIC-FIELD PIC 9(10).                                 This is the 9(10) field (numeric)Converting the Alphanumeric Value to Numeric:
 
 PROCEDURE DIVISION.
-MOVE '1234567890' TO ALPHANUMERIC-FIELD Assign alphanumeric value*—>Convert ALPHANUMERIC-FIELD to NUMERIC-FIELD
+MOVE '1234567890' TO ALPHANUMERIC-FIELD                        Assign alphanumeric value *—>Convert ALPHANUMERIC-FIELD to NUMERIC-FIELD
 MOVE FUNCTION NUMVAL(ALPHANUMERIC-FIELD) TO NUMERIC-FIELD
 
 DISPLAY 'Alphanumeric: ' ALPHANUMERIC-FIELD DISPLAY 'Numeric: ' NUMERIC-FIELD
